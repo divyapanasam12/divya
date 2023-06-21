@@ -1,0 +1,36 @@
+1  sudo amazon-linux-extras install java-openjdk11
+    2   yum -y install java
+    3  sudo yum install java-1.8.0-amazon-corretto
+    4  sudo yum update –y
+    5  sudo yum update
+    6  sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    7  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+    8  sudo yum upgrade
+    9  sudo amazon-linux-extras install java-openjdk11 -y
+   10  sudo yum install jenkins -y
+   11  sudo systemctl enable jenkins
+   12  sudo systemctl start jenkins
+   13  journalctl -xeu jenkins.service~
+   14  sudo systemctl start jenkins
+   15  sudo systemctl status jenkins
+   16  sudo systemctl enable jenkins
+   17  sudo systemctl start jenkins
+   18  sudo apt upgrade jenkins
+   19  yum install apt
+   20  sudo apt install
+   21  sudo yum update
+   22  sudo yum upgrade jenkins
+   23  sudo apt upgrade jenkins
+   24  sudo systemctl start jenkins
+   25  sudo systemctl stop jenkins
+   26  sudo systemctl disable jenkins
+   27  sudo systemctl start jenkins
+   28  sudo service jenkins start
+   29  sudo service jenkins status
+   30  sudo service jenkins stop
+   31  sudo vi /etc/init.d/jenkins
+   32   sudo dnf install java-11-amazon-corretto -y
+   33  sudo systemctl start jenkins
+   34  sudo service jenkins status
+   35  cat /var/lib/jenkins/secrets/initialAdminPassword
+   36  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
